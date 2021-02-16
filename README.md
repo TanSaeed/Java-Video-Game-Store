@@ -14,7 +14,7 @@
 ## Documantion
  
 #### Design Patterns: 
-The first design pattern was Singleton, this was used because we are only supposed to manage one store, so we don’t want to create multiple stores. The ConsoleStore class is only allowed to instantiate one store. The other pattern was Abstract Factory, this was used because there are multiple types of companies that have different home consoles, this would allow is to grab the right home console depending on the company outlet. 
+The first design pattern was Singleton, this was used because we are only supposed to manage one store, so we don’t want to create multiple stores. The ConsoleStore class is only allowed to instantiate one store. The other pattern was Abstract Factory, this was used because there are multiple types of companies that have different home consoles, this would allow us to grab the right home console depending on the company outlet. 
 #### Polymorphism: 
 Abstract ConsoleFactory reference is used to instantiate a concrete subclass of Sony, Nintendo, and Microsoft.
 #### Generics: 
